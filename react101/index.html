@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- this contains the core react logic -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <!-- this contains the DOM manipulation code e.g react-native, react3d, mobile etc -->
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- Moving below code to seperate js file -->
+  <!-- print hello world using react -->
+  <!-- <script>
+    // this is from react core code
+    const h1 = React.createElement('h1', {}, "Hello world");
+    // reactDOM offers react root element to place all the code inside
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+
+    root.render(h1);
+  </script> -->
+  <script src="App.js"></script>
+</body>
+</html>
